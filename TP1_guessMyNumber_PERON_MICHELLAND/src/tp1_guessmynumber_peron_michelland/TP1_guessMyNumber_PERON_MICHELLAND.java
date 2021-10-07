@@ -31,7 +31,7 @@ public class TP1_guessMyNumber_PERON_MICHELLAND {
         int difficulté = sc.nextInt();
         
         if (difficulté==1) {
-            System.out.println("Vous avez choisi le niveau");
+            System.out.println("Vous avez choisi le niveau FACILE");
             System.out.println("Rentrez un nombre entre 0 et 25");
                      
             while (1==1) {                 
@@ -65,7 +65,8 @@ public class TP1_guessMyNumber_PERON_MICHELLAND {
             }
         }                 
         if (difficulté==2) {
-            System.out.println("Vous avez choisi le niveau moyen saisissez un nombre entre 0 et 50");
+            System.out.println("Vous avez choisi le niveau MOYEN saisissez un nombre entre 0 et 50");
+            System.out.println("Rentrez un nombre entre 0 et 50");
             while (1==1) { 
                 int nombre1 = sc.nextInt();
                 compteur=compteur+1;                         
@@ -97,7 +98,8 @@ public class TP1_guessMyNumber_PERON_MICHELLAND {
             }         
         }                 
         if (difficulté==3) { 
-            System.out.println("Vous avez choisi le niveau difficile saisissez un nombre entre 0 et 100");
+            System.out.println("Vous avez choisi le niveau DIFFICILE saisissez un nombre entre 0 et 100");
+            System.out.println("Rentrez un nombre entre 0 et 100");
             while (1==1) {
                 int nombre1 = sc.nextInt();
                 compteur=1+compteur;                         
